@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(58, 97, 134) !important;
+  padding: 2rem;
+}
+
+.bgAnimated {
+  background-size: 300% 200%;
+  background-image: linear-gradient(
+        -45deg, 
+     /* rgba(59,173,227,1) 0%, 
+        rgba(87,111,230,1) 25%, 
+        rgba(152,68,183,1) 51%, 
+        rgba(255,53,127,1) 100% */
+
+        
+    rgb(0, 0, 70,1) 0%, 
+    rgb(137, 37, 62,1) 25%, 
+    rgb(58, 97, 134,1) 51%, 
+    rgb(0, 71, 171,1) 100%
+  );  
+  animation: bgAnimated 20s ease infinite;
+}
+
+
+
+@keyframes bgAnimated { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+
+
+#profilephoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  max-width: 40vh;
+  filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+.intro {
+  
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  color: ghostwhite;
+  font-family: 'Lora', serif;
+}
+
+.greeting, .h1 {
+  font-family: 'Patua One', cursive;
+  color: white;
+  font-size: 5vh;
+}
+
+.h1, h1 {
+  font-family: 'Patua One', cursive;
+  color: rgb(58, 97, 134);
+}
+
+.card-text {
+  font-family: 'Edu QLD Beginner', cursive;
+}
+
+#heart {
+  font-size: 5rem;
+  color: rgb(229, 228, 226);
+}
+
+.projectShowcase {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+
+.greeting span:before {
+  content: "";
+  animation: language_animation_change 10s;
+  animation-timing-function: linear;
+  animation-timing-function: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes language_animation_change {
+  0% {
+    content: "Szia, a nevem";
+  }
+  25% {
+    content: "Salut, mă numesc";
+  }
+  50% {
+    content: "Salut, je m'appelle";
+  }
+  100% {
+    content: "Hi, my name is";
+  }
+}
+
+ 
+.btn {
+	background-color:rgb(58, 97, 134);
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Lora', serif;
+	text-decoration:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+} 

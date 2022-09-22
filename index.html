@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./rsc/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Lora&family=Patua+One&display=swap" rel="stylesheet"> 
+
+    <title>Hello World</title>
+</head>
+<body class="bgAnimated">
+    <header>
+        <picture alt='profile picture of mine'>
+            <img class="img-fluid" id="profilephoto" src="./rsc/img/ppic2.png" alt="">
+        </picture>
+          
+        <div class="intro p-3 mb-5">
+            <h1 class="greeting fw-bold"><span></span> Zsolt</h1>
+            <h2 >I'm a Web Developer</h2>
+        </div>
+        
+    </header>
+    <main class="container bg-white shadow p-3 mb-5 bg-body rounded text-center">
+        <div class="container p-3">
+          <p class="lead text-muted">
+            Started my career in Communication and PR, from event organization I ended up in the European Parliament in a few years. 
+            During this period of time, I had the chance to meet with some great people, cultures and traditions – but truth to be told, I was always a tech savvy guy. 
+            <br>
+            Technology and its potential fascinate me. I used to be that kid who repairs (or bricks) your laptop, installs custom ROM for your phone, mods or cleans your gaming console. 
+            But all these developed my problem-solving skills, which I’m more than eager to use for creating new experiences, implementing eye pleasing designs and making them come to life. 
+            <br><br>
+            For examples, please continue to browse my site, and if anything catches your eyes, 
+            do <button type="button" class="btn btn-outline-dark">contact</button> me. I’ll wait 😊 
+          </p>
+        </div>
+       
+        <hr class="py-3">
+
+        <div class="row g-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-center">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <img src="https://picsum.photos/600/300" class="img-fluid rounded mx-auto d-block" alt="...">
+
+            
+          </div>
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-center">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <img src="https://picsum.photos/600/300" class="img-fluid rounded mx-auto d-block" alt="...">
+
+          </div>
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-center">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <img src="https://picsum.photos/600/300" class="img-fluid rounded mx-auto d-block" alt="...">
+
+          </div>
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light text-center">Album example</h1>
+            <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+            <img src="https://picsum.photos/600/300" class="img-fluid rounded mx-auto d-block" alt="...">
+
+          </div>
+        </div> 
+    </main>
+
+    <section class="container shadow p-3 mb-5 bg-body rounded">
+        <div class="row">
+            <!--left side, adv-->
+            <div class="col-lg-6 projectShowcase">
+                
+                <img src="./rsc/img/beetle.png" class="img-fluid" alt="5 Terre" style="width:100%">
+           
+                <img src="./rsc/img/pink_floyd.jpg" class="img-fluid" alt="5 Terre" style="width:100%">
+
+                <img src="./rsc/img/gym.png" class="img-fluid" alt="5 Terre" style="width:100%">
+
+            </div>
+            <!--right side, adv-->
+            <div class="col-lg-6">
+              <div class="container p-3 text-center">
+                <h1>Noteworthy projects</h1>
+                <hr class="py-3">
+                <p class="lead text-muted">Some of my previous works are confidential, some are just not related to web dev. Besides that, how could I describe the thrill of a long-term campaign in a nutshell? Or the branding of a restaurant? The way we handcrafted our tools for a teambuilding event? Instead, let’s have a look on some posters I made using Adobe products.</p>
+              </div>
+            </div>
+        </div>       
+    </section>
+    
+      <section class="container shadow p-3 mb-5 bg-body rounded">  
+        <div class="row g-5">
+            <!--photo-->
+            <div class="col-lg-6">
+              <div class="container p-3 text-center">
+                <h1>Photography, my passion</h1>
+                <hr class="py-3">
+                <p class="lead text-muted"> It also helps me notice the world around, and stay in the moment.
+                    Photography is a hobby that offers so many possibilities for creative expression
+                    and technical expertise. Lately I've been trying to get in to Astrophotography. As a famous YouTuber once said: 
+                    <p class="fst-italic text-muted">"Hit that Like button!"</p>
+
+                    
+                </p>
+                <i class="fa fa-heart" id="heart" onclick="fillRed()"></i>
+              </div>
+            </div>
+
+            <!--insta pics-->
+            <div class="card-group col-lg-6">
+                <div class="card m-2">
+                  <img src="./rsc/img/insta1.png" class="card-img-top" alt="Sample picture from Instagram">
+                  <div class="card-body">
+                    <p class="card-text text-center">#nofilter</p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  <img src="./rsc/img/insta2.png" class="card-img-top" alt="Sample picture from Instagram">
+                  <div class="card-body">
+                    <p class="card-text text-center">Thunderstorm</p>
+                  </div>
+                </div>
+                <div class="card m-2">
+                  <img src="./rsc/img/insta3.png" class="card-img-top" alt="Sample picture from Instagram">
+                  <div class="card-body">
+                    <p class="card-text text-center">Milky Way</p>
+                  </div>
+                </div>
+                <!--end of 1st card group-->
+                <div class="card-group">
+                  <div class="card m-2">
+                    <img src="./rsc/img/insta4.png" class="card-img-top" alt="Sample picture from Instagram">
+                    <div class="card-body">
+                      <p class="card-text text-center">Spring is coming</p>
+                    </div>
+                  </div>
+                  <div class="card m-2">
+                    <img src="./rsc/img/insta5.png" class="card-img-top" alt="Sample picture from Instagram">
+                    <div class="card-body">
+                      <p class="card-text text-center">Sharks</p>
+                    </div>
+                  </div>
+                  <div class="card m-2">
+                    <img src="./rsc/img/insta9.png" class="card-img-top" alt="Sample picture from Instagram">
+                    <div class="card-body">
+                      <p class="card-text text-center">Fireworks</p>
+                    </div>
+                  </div>
+                </div>
+                <!--end of 2nd card group-->
+        </div>
+      </section>   
+    <footer class="footer shadow p-3 bg-body rounded text-center text-muted fst-italic">“An essential aspect of creativity is not being afraid to fail.” – Dr. Edwin Land </footer>
+
+    <script src="https://kit.fontawesome.com/af153c76db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+    <!-- filling the hearth icon <i> red-->
+    <script>
+      function fillRed() {
+        document.getElementById("heart").style.color = "red";
+      }
+    </script>
+</body>
+</html>
+
